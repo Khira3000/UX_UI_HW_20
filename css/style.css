@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+navbar {
+    background-color: rgb(21, 153, 153);
+}
+
+.nav-link {
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration:none;
+
+}
+
+.nav-link:hover {
+    color: white;
+    background-color:  #30CCA7;
+
+
+}
+
+.jumbotron {
+    background-image: url("/images/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%; 
+  }
+
+
+
+
+
+  .about {
+    margin-top: -4%;
+    background-color:  #30CCA7;
+    height: 500px;
+    padding: 2%;
+     }
+
+    .research {
+        background-color: white;
+        padding:3%;
+        height: 700px;
+         }
+    
+         .defintion {
+            background-color:  #30CCA7;
+            padding:3%;
+            height: 700px;
+            
+            }
+            
+             
+
+             .ideation {
+                background-color: white;
+                padding:3%;
+                height: 700px;
+                 }
+
+                 .prototyping{
+                    background-color:  #30CCA7;
+                    padding:1%;
+                    height: 700px;
+                     }
+
+                     .testing {
+                        background-color: white;
+                        padding:3%;
+                        height: 700px;
+                         }
+                         
+                         .reflection {
+                            background-color:  #30CCA7;
+                            padding:3%;
+                            height: 700px;
+                             }
+
+
+.research h2 {
+    padding:0.5%;
+    background-color: #ED0909;
+    opacity: 0.7;
+    
+    
+}
+
+.research p {
+    margin-top: 2%;
+    
+}
+
+
+
+
+
+
+.defintion h2 {
+    padding:0.5%;
+    background-color: #CDBBFF;
+    float: right;
+    
+    
+}
+
+.defintion p {
+    margin-top: 2%;
+    float: right;
+    
+}
+
+
+
+
+
+.ideation h2 {
+    padding:0.5%;
+    background-color: #E9E12E;
+    opacity: 0.7;
+
+    
+}
+
+.ideation p {
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+.prototyping h2 {
+    
+    background-color: #F46B6B;
+    float:right; 
+    padding: 0.5%;
+    
+  
+
+}
+
+
+.prototyping p {
+    margin-top:2%; 
+    text-align: right;
+    padding: 2%;
+    float: right;
+}
+
+
+.testing h2{
+    padding:0.5%;
+    background-color: #AC8EFF;
+    opacity: 0.7;
+    
+
+
+}
+
+.testing p {
+    margin-top: 2%;
+    
+}
+
+
+
+
+
+
+
+
+
+.reflection h2{
+    padding:0.5%;
+    background-color: #F2ED82;
+    float:right;
+    margin-right: 2%;
+}
+
+
+
+.reflection p {
+    margin-top: 2%;
+    float:right;
+}
+
