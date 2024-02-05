@@ -37,20 +37,25 @@ navbar {
   .about {
     margin-top: -4%;
     background-color:  #30CCA7;
-    height: 500px;
-    padding: 2%;
+    padding:3%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
      }
 
     .research {
         background-color: white;
         padding:3%;
-        height: 700px;
+        
+        
          }
     
          .defintion {
             background-color:  #30CCA7;
             padding:3%;
-            height: 700px;
+            direction: rtl;
+            
             
             }
             
@@ -59,25 +64,27 @@ navbar {
              .ideation {
                 background-color: white;
                 padding:3%;
-                height: 700px;
+                
                  }
 
                  .prototyping{
                     background-color:  #30CCA7;
-                    padding:1%;
-                    height: 700px;
+                    padding:3%;
+                    direction: rtl;
+                    
                      }
 
                      .testing {
                         background-color: white;
                         padding:3%;
-                        height: 700px;
+                        
                          }
                          
                          .reflection {
                             background-color:  #30CCA7;
                             padding:3%;
-                            height: 700px;
+                            direction: rtl;
+                            
                              }
 
 
@@ -85,12 +92,16 @@ navbar {
     padding:0.5%;
     background-color: #ED0909;
     opacity: 0.7;
+    display: inline-block;
+    
+    
     
     
 }
 
 .research p {
     margin-top: 2%;
+    word-break:break-all;
     
 }
 
@@ -102,14 +113,19 @@ navbar {
 .defintion h2 {
     padding:0.5%;
     background-color: #CDBBFF;
-    float: right;
+    text-align: right;
+    display: inline-block;
+    
+    
     
     
 }
 
 .defintion p {
     margin-top: 2%;
-    float: right;
+    text-align: right;
+    word-wrap: break-word;
+
     
 }
 
@@ -121,12 +137,14 @@ navbar {
     padding:0.5%;
     background-color: #E9E12E;
     opacity: 0.7;
+    display: inline-block;
 
     
 }
 
 .ideation p {
     margin-top: 2%;
+    word-break:break-all;
 }
 
 
@@ -139,8 +157,9 @@ navbar {
 .prototyping h2 {
     
     background-color: #F46B6B;
-    float:right; 
+    text-align:right;
     padding: 0.5%;
+    display: inline-block;
     
   
 
@@ -148,10 +167,11 @@ navbar {
 
 
 .prototyping p {
-    margin-top:2%; 
+    
     text-align: right;
-    padding: 2%;
-    float: right;
+    margin-top: 2%;
+    word-wrap: break-word;
+   
 }
 
 
@@ -159,6 +179,7 @@ navbar {
     padding:0.5%;
     background-color: #AC8EFF;
     opacity: 0.7;
+    display: inline-block;
     
 
 
@@ -166,6 +187,7 @@ navbar {
 
 .testing p {
     margin-top: 2%;
+    word-wrap: break-word;
     
 }
 
@@ -180,14 +202,16 @@ navbar {
 .reflection h2{
     padding:0.5%;
     background-color: #F2ED82;
-    float:right;
-    margin-right: 2%;
+    text-align: right;
+    display: inline-block;
+    
 }
 
 
 
 .reflection p {
     margin-top: 2%;
-    float:right;
+    text-align:center;
+    word-wrap: break-word;
 }
 
